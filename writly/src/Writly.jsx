@@ -14,6 +14,7 @@ function Writly() {
   // clear text
   const clearText = () => {
     setInputText("");
+    setOutput("");
   }
 
   // copy text 
