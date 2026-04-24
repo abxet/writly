@@ -40,7 +40,7 @@ function Writly() {
 
     try {
       // fetch response from api
-      const res = await fetch("http://localhost:5000/api", {
+      const res = await fetch("https://writly.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -4,7 +4,9 @@ import cors from 'cors'
 import { OpenAI } from 'openai/client.js';
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: "*"
+}));
 app.use(express.json());
 const port = process.env.PORT;
 
